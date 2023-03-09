@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xylo Web</title>
+  <link rel = "stylesheet" href="style.css">
+  
+ 
+</head>
+<body>
+  <section id="header">
+    <div class="container">
+      <img src="images/logo.png" class="logo">
+      <div class="header-txt">
+        <h1>The purpose is to</br>teach, bring learning to people </h1><br>
+        <span class="square"></span>
+        <p>It is the task of the storyteller <br>to forge the fantasy images of the past <br>into masks of the realistic images of the present.
+        </p>
+        <br>
+        <button class="common-btn">Read More</button>
+        <br>
+        <br>
+        <div class="line">
+          <span class="line-1"></span><br>
+          <span class="line-2"></span><br>
+          <span class="line-3"></span><br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">COURSE</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+        
+
+      </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+        
+      sideNav.style.right="-500px";
+      menuBtn.onclick = function(){
+      
+      
+        if(sideNav.style.right == "-500px"){
+          sideNav.style.right = "0";
+        }
+        else{
+          sideNav.style.right = "-500px";
+        }
+      
+      }
+    </script>
+  </section>
+
+
+  <!--about-->
+  <section id="about">
+    <div class="about-left-col">
+      <img src="images/about.png">
+    </div>
+    <div class="about-right-col"></div>
+    <div class="about-text">
+      <h1>About Us</h1>
+      <p>We thrive to introduce and intergrate the reading culture,<br>to learn our roots and the journey of folklore from ancient times.</p>
+    </br>
+  
+    <h>“There is no story that is not true, [...] The world has no end, and what is good among one people is an abomination with others.”</h>
+      <h4>― Chinua Achebe, Things Fall Apart</h4>
+      <div class="feature-btn">
+        <div class="line">
+          <span class="line-1"></span></br>
+          <span class="line-2"></span></br>
+          <span class="line-3"></span></br>
+        </div>  
+  </div>
+ 
+  </section>
+
+
+
+
+      </h3>
+    </div>
+
+  </section>
+
+  <!---features--->
+  <section id="features">
+    <div class="feature-row">
+      <div class="feature-col">
+
+      <img src="/images/pic-1.png">
+      <h4>Learn Anywhere</h4>
+      <p> switch between your computer, tablet or mobile devices.</p>
+
+      </div>
+
+      <div class="feature-col">
+
+
+     
+        <img src="/images/pic-2.png">
+        <h4>Expert storytellers</h4>
+        <p> Learn from famous stories and storytellers are passionate about teaching.</p>
+
+      </div>
+      <div class="feature-col">
+
+
+      <img src="/images/pic-3.png">
+      <h4>Unlimited Access</h4>
+      <p> Choose what you'd like to learn from our extensive subscription library.</p>
+      </div>
+    </div>
+
+    <div class="feature-btn">
+      <div class="line">
+        <span class="line-1"></span></br>
+        <span class="line-2"></span></br>
+        <span class="line-3"></span></br>
+      </div>
+      <button class="common-btn">Start Free Trial</button>
+    </div>
+  </section>
+
+  <!--courses-->
+  <section id="courses">
+    <div class="Container course-row">
+      <div class="course-left-col">
+
+        <div class="course-text"></div>
+        <h1> Browse our top</br> courses</h1>
+        <span class="square"></span>
+        <p>History is not the significant genre involved in the epic. It is instead tale and myth that organize the images of history and give those images their meaning. History by itself has no significance: it achieves significance when it is juxtaposed to the images of a tradition grounded in tales and myths. This suggests the great value that oral societies place on the imaginative traditions: they are entertaining, certainly, but they are also major organizing devices.
+           </p>
+           <button class="common-btn"> View All Courses</button>
+           <div class="line">
+            <span class="line-1"></span></br>
+            <span class="line-2"></span></br>
+            <span class="line-3"></span></br>
+          </div>
+      </div>
+      <div class="course-right-col">
+        <img src="/images/course.png">
+      </div>
+    </div>
+  </section>
+
+
+<!-- offer -->
+<section id="offer">
+    <div class="about-left-col">
+      <img src="images/offer.png">
+    </div>
+    <div class="about-right-col"></div>
+    <div class="about-text">
+      <h1>limitless stories,<br>limitless possibilities</h1>
+      <p>We offer tickets to limitless destinations with our alluring narrations<br>in every story is an adventure that awaits you and lands of ogres to defeat.</p>
+    </br>
+  
+    <h>“There is no story that is not true.”</h>
+      <h4>― Chinua Achebe, Things Fall Apart</h4>
+  </div>
+</section>
+
+  <script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+      
+    sideNav.style.right="-250px";
+    menuBtn.onclick= function(){
+    
+    
+      if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+      }
+      else{
+        sideNav.style.right = "-250px";
+      }
+    
+    }
+  </script>
+  
+</body>
+</html>
